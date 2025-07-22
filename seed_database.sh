@@ -1,10 +1,5 @@
 #!/bin/bash
 
-# Load environment variables
-set -a
-source .env
-set +a
-
 echo "🗄️  Setting up PostgreSQL database..."
 
 # Run Django migrations
